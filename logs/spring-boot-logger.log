@@ -1,0 +1,79 @@
+2024-09-25 10:34:02,841 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 69063 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-25 10:34:02,842 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-25 10:34:02,842 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-25 10:34:05,944 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 3.306 seconds (process running for 3.473)
+2024-09-25 10:34:11,820 TRACE c.e.HelloController [http-nio-8080-exec-1] A TRACE Message
+2024-09-25 10:34:11,820 DEBUG c.e.HelloController [http-nio-8080-exec-1] A DEBUG Message
+2024-09-25 10:34:11,820 INFO c.e.HelloController [http-nio-8080-exec-1] An INFO Message
+2024-09-25 10:34:11,820 WARN c.e.HelloController [http-nio-8080-exec-1] A WARN Message
+2024-09-25 10:34:11,820 ERROR c.e.HelloController [http-nio-8080-exec-1] An ERROR Message
+2024-09-25 10:44:06,727 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 69300 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-25 10:44:06,727 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-25 10:44:06,728 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-25 10:44:10,865 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 4.342 seconds (process running for 4.511)
+2024-09-25 10:44:19,091 TRACE c.e.HelloController [http-nio-8080-exec-1] A TRACE Message
+2024-09-25 10:44:19,091 DEBUG c.e.HelloController [http-nio-8080-exec-1] A DEBUG Message
+2024-09-25 10:44:19,091 INFO c.e.HelloController [http-nio-8080-exec-1] An INFO Message
+2024-09-25 10:44:19,091 WARN c.e.HelloController [http-nio-8080-exec-1] A WARN Message
+2024-09-25 10:44:19,091 ERROR c.e.HelloController [http-nio-8080-exec-1] An ERROR Message
+2024-09-25 10:48:50,506 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 69439 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-25 10:48:50,507 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-25 10:48:50,507 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-25 10:48:53,655 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 3.348 seconds (process running for 3.517)
+2024-09-25 10:48:57,460 TRACE c.e.HelloController [http-nio-8080-exec-2] A TRACE Message
+2024-09-25 10:48:57,460 DEBUG c.e.HelloController [http-nio-8080-exec-2] A DEBUG Message
+2024-09-25 10:48:57,460 INFO c.e.HelloController [http-nio-8080-exec-2] An INFO Message
+2024-09-25 10:48:57,460 WARN c.e.HelloController [http-nio-8080-exec-2] A WARN Message
+2024-09-25 10:48:57,460 ERROR c.e.HelloController [http-nio-8080-exec-2] An ERROR Message
+2024-09-25 10:48:57,460 TRACE c.e.s.HelloService [http-nio-8080-exec-2] A TRACE Message
+2024-09-25 10:48:57,461 DEBUG c.e.s.HelloService [http-nio-8080-exec-2] A DEBUG Message
+2024-09-25 10:48:57,461 INFO c.e.s.HelloService [http-nio-8080-exec-2] An INFO Message
+2024-09-25 10:48:57,461 WARN c.e.s.HelloService [http-nio-8080-exec-2] A WARN Message
+2024-09-25 10:48:57,461 ERROR c.e.s.HelloService [http-nio-8080-exec-2] An ERROR Message
+2024-09-25 10:49:25,045 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 69508 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-25 10:49:25,045 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-25 10:49:25,046 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-25 10:49:29,250 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 4.408 seconds (process running for 4.572)
+2024-09-25 10:49:30,682 TRACE c.e.HelloController [http-nio-8080-exec-1] A TRACE Message
+2024-09-25 10:49:30,682 DEBUG c.e.HelloController [http-nio-8080-exec-1] A DEBUG Message
+2024-09-25 10:49:30,682 INFO c.e.HelloController [http-nio-8080-exec-1] An INFO Message
+2024-09-25 10:49:30,683 WARN c.e.HelloController [http-nio-8080-exec-1] A WARN Message
+2024-09-25 10:49:30,683 ERROR c.e.HelloController [http-nio-8080-exec-1] An ERROR Message
+2024-09-25 10:49:30,683 DEBUG c.e.s.HelloService [http-nio-8080-exec-1] A DEBUG Message
+2024-09-25 10:49:30,683 INFO c.e.s.HelloService [http-nio-8080-exec-1] An INFO Message
+2024-09-25 10:49:30,683 WARN c.e.s.HelloService [http-nio-8080-exec-1] A WARN Message
+2024-09-25 10:49:30,683 ERROR c.e.s.HelloService [http-nio-8080-exec-1] An ERROR Message
+2024-09-25 10:59:48,908 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 69915 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-25 10:59:48,909 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-25 10:59:48,909 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-25 10:59:53,513 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 4.869 seconds (process running for 5.082)
+2024-09-25 10:59:58,680 INFO o.s.b.StartupInfoLogger [Test worker] Starting Spring21ApplicationTests using Java 21.0.4 with PID 70002 (started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-25 10:59:58,682 DEBUG o.s.b.StartupInfoLogger [Test worker] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-25 10:59:58,682 INFO o.s.b.SpringApplication [Test worker] No active profile set, falling back to 1 default profile: "default"
+2024-09-25 10:59:59,882 INFO o.s.b.StartupInfoLogger [Test worker] Started Spring21ApplicationTests in 1.385 seconds (process running for 2.117)
+2024-09-25 11:00:03,899 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 70042 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-25 11:00:03,900 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-25 11:00:03,900 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-25 11:00:08,478 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 4.841 seconds (process running for 5.026)
+2024-09-25 11:00:08,725 TRACE c.e.HelloController [http-nio-8080-exec-1] A TRACE Message
+2024-09-25 11:00:08,725 DEBUG c.e.HelloController [http-nio-8080-exec-1] A DEBUG Message
+2024-09-25 11:00:08,725 INFO c.e.HelloController [http-nio-8080-exec-1] An INFO Message
+2024-09-25 11:00:08,725 WARN c.e.HelloController [http-nio-8080-exec-1] A WARN Message
+2024-09-25 11:00:08,725 ERROR c.e.HelloController [http-nio-8080-exec-1] An ERROR Message
+2024-09-25 11:00:08,725 DEBUG c.e.s.HelloService [http-nio-8080-exec-1] A DEBUG Message
+2024-09-25 11:00:08,725 INFO c.e.s.HelloService [http-nio-8080-exec-1] An INFO Message
+2024-09-25 11:00:08,726 WARN c.e.s.HelloService [http-nio-8080-exec-1] A WARN Message
+2024-09-25 11:00:08,726 ERROR c.e.s.HelloService [http-nio-8080-exec-1] An ERROR Message
+2024-09-25 11:01:43,956 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 70276 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-25 11:01:43,957 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-25 11:01:43,957 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-25 11:01:47,161 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 3.406 seconds (process running for 3.591)
+2024-09-25 11:01:59,547 TRACE c.e.HelloController [http-nio-8080-exec-2] A TRACE Message
+2024-09-25 11:01:59,547 DEBUG c.e.HelloController [http-nio-8080-exec-2] A DEBUG Message
+2024-09-25 11:01:59,547 INFO c.e.HelloController [http-nio-8080-exec-2] An INFO Message
+2024-09-25 11:01:59,547 WARN c.e.HelloController [http-nio-8080-exec-2] A WARN Message
+2024-09-25 11:01:59,547 ERROR c.e.HelloController [http-nio-8080-exec-2] An ERROR Message
+2024-09-25 11:01:59,547 DEBUG c.e.s.HelloService [http-nio-8080-exec-2] A DEBUG Message
+2024-09-25 11:01:59,547 INFO c.e.s.HelloService [http-nio-8080-exec-2] An INFO Message
+2024-09-25 11:01:59,548 WARN c.e.s.HelloService [http-nio-8080-exec-2] A WARN Message
+2024-09-25 11:01:59,548 ERROR c.e.s.HelloService [http-nio-8080-exec-2] An ERROR Message
