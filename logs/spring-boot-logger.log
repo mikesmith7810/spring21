@@ -1,79 +1,997 @@
-2024-09-25 10:34:02,841 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 69063 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
-2024-09-25 10:34:02,842 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
-2024-09-25 10:34:02,842 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-09-25 10:34:05,944 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 3.306 seconds (process running for 3.473)
-2024-09-25 10:34:11,820 TRACE c.e.HelloController [http-nio-8080-exec-1] A TRACE Message
-2024-09-25 10:34:11,820 DEBUG c.e.HelloController [http-nio-8080-exec-1] A DEBUG Message
-2024-09-25 10:34:11,820 INFO c.e.HelloController [http-nio-8080-exec-1] An INFO Message
-2024-09-25 10:34:11,820 WARN c.e.HelloController [http-nio-8080-exec-1] A WARN Message
-2024-09-25 10:34:11,820 ERROR c.e.HelloController [http-nio-8080-exec-1] An ERROR Message
-2024-09-25 10:44:06,727 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 69300 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
-2024-09-25 10:44:06,727 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
-2024-09-25 10:44:06,728 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-09-25 10:44:10,865 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 4.342 seconds (process running for 4.511)
-2024-09-25 10:44:19,091 TRACE c.e.HelloController [http-nio-8080-exec-1] A TRACE Message
-2024-09-25 10:44:19,091 DEBUG c.e.HelloController [http-nio-8080-exec-1] A DEBUG Message
-2024-09-25 10:44:19,091 INFO c.e.HelloController [http-nio-8080-exec-1] An INFO Message
-2024-09-25 10:44:19,091 WARN c.e.HelloController [http-nio-8080-exec-1] A WARN Message
-2024-09-25 10:44:19,091 ERROR c.e.HelloController [http-nio-8080-exec-1] An ERROR Message
-2024-09-25 10:48:50,506 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 69439 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
-2024-09-25 10:48:50,507 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
-2024-09-25 10:48:50,507 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-09-25 10:48:53,655 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 3.348 seconds (process running for 3.517)
-2024-09-25 10:48:57,460 TRACE c.e.HelloController [http-nio-8080-exec-2] A TRACE Message
-2024-09-25 10:48:57,460 DEBUG c.e.HelloController [http-nio-8080-exec-2] A DEBUG Message
-2024-09-25 10:48:57,460 INFO c.e.HelloController [http-nio-8080-exec-2] An INFO Message
-2024-09-25 10:48:57,460 WARN c.e.HelloController [http-nio-8080-exec-2] A WARN Message
-2024-09-25 10:48:57,460 ERROR c.e.HelloController [http-nio-8080-exec-2] An ERROR Message
-2024-09-25 10:48:57,460 TRACE c.e.s.HelloService [http-nio-8080-exec-2] A TRACE Message
-2024-09-25 10:48:57,461 DEBUG c.e.s.HelloService [http-nio-8080-exec-2] A DEBUG Message
-2024-09-25 10:48:57,461 INFO c.e.s.HelloService [http-nio-8080-exec-2] An INFO Message
-2024-09-25 10:48:57,461 WARN c.e.s.HelloService [http-nio-8080-exec-2] A WARN Message
-2024-09-25 10:48:57,461 ERROR c.e.s.HelloService [http-nio-8080-exec-2] An ERROR Message
-2024-09-25 10:49:25,045 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 69508 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
-2024-09-25 10:49:25,045 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
-2024-09-25 10:49:25,046 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-09-25 10:49:29,250 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 4.408 seconds (process running for 4.572)
-2024-09-25 10:49:30,682 TRACE c.e.HelloController [http-nio-8080-exec-1] A TRACE Message
-2024-09-25 10:49:30,682 DEBUG c.e.HelloController [http-nio-8080-exec-1] A DEBUG Message
-2024-09-25 10:49:30,682 INFO c.e.HelloController [http-nio-8080-exec-1] An INFO Message
-2024-09-25 10:49:30,683 WARN c.e.HelloController [http-nio-8080-exec-1] A WARN Message
-2024-09-25 10:49:30,683 ERROR c.e.HelloController [http-nio-8080-exec-1] An ERROR Message
-2024-09-25 10:49:30,683 DEBUG c.e.s.HelloService [http-nio-8080-exec-1] A DEBUG Message
-2024-09-25 10:49:30,683 INFO c.e.s.HelloService [http-nio-8080-exec-1] An INFO Message
-2024-09-25 10:49:30,683 WARN c.e.s.HelloService [http-nio-8080-exec-1] A WARN Message
-2024-09-25 10:49:30,683 ERROR c.e.s.HelloService [http-nio-8080-exec-1] An ERROR Message
-2024-09-25 10:59:48,908 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 69915 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
-2024-09-25 10:59:48,909 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
-2024-09-25 10:59:48,909 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-09-25 10:59:53,513 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 4.869 seconds (process running for 5.082)
-2024-09-25 10:59:58,680 INFO o.s.b.StartupInfoLogger [Test worker] Starting Spring21ApplicationTests using Java 21.0.4 with PID 70002 (started by mikesmith in /Users/mikesmith/code/personal/spring21)
-2024-09-25 10:59:58,682 DEBUG o.s.b.StartupInfoLogger [Test worker] Running with Spring Boot v3.2.10, Spring v6.1.13
-2024-09-25 10:59:58,682 INFO o.s.b.SpringApplication [Test worker] No active profile set, falling back to 1 default profile: "default"
-2024-09-25 10:59:59,882 INFO o.s.b.StartupInfoLogger [Test worker] Started Spring21ApplicationTests in 1.385 seconds (process running for 2.117)
-2024-09-25 11:00:03,899 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 70042 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
-2024-09-25 11:00:03,900 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
-2024-09-25 11:00:03,900 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-09-25 11:00:08,478 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 4.841 seconds (process running for 5.026)
-2024-09-25 11:00:08,725 TRACE c.e.HelloController [http-nio-8080-exec-1] A TRACE Message
-2024-09-25 11:00:08,725 DEBUG c.e.HelloController [http-nio-8080-exec-1] A DEBUG Message
-2024-09-25 11:00:08,725 INFO c.e.HelloController [http-nio-8080-exec-1] An INFO Message
-2024-09-25 11:00:08,725 WARN c.e.HelloController [http-nio-8080-exec-1] A WARN Message
-2024-09-25 11:00:08,725 ERROR c.e.HelloController [http-nio-8080-exec-1] An ERROR Message
-2024-09-25 11:00:08,725 DEBUG c.e.s.HelloService [http-nio-8080-exec-1] A DEBUG Message
-2024-09-25 11:00:08,725 INFO c.e.s.HelloService [http-nio-8080-exec-1] An INFO Message
-2024-09-25 11:00:08,726 WARN c.e.s.HelloService [http-nio-8080-exec-1] A WARN Message
-2024-09-25 11:00:08,726 ERROR c.e.s.HelloService [http-nio-8080-exec-1] An ERROR Message
-2024-09-25 11:01:43,956 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 70276 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
-2024-09-25 11:01:43,957 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
-2024-09-25 11:01:43,957 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
-2024-09-25 11:01:47,161 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 3.406 seconds (process running for 3.591)
-2024-09-25 11:01:59,547 TRACE c.e.HelloController [http-nio-8080-exec-2] A TRACE Message
-2024-09-25 11:01:59,547 DEBUG c.e.HelloController [http-nio-8080-exec-2] A DEBUG Message
-2024-09-25 11:01:59,547 INFO c.e.HelloController [http-nio-8080-exec-2] An INFO Message
-2024-09-25 11:01:59,547 WARN c.e.HelloController [http-nio-8080-exec-2] A WARN Message
-2024-09-25 11:01:59,547 ERROR c.e.HelloController [http-nio-8080-exec-2] An ERROR Message
-2024-09-25 11:01:59,547 DEBUG c.e.s.HelloService [http-nio-8080-exec-2] A DEBUG Message
-2024-09-25 11:01:59,547 INFO c.e.s.HelloService [http-nio-8080-exec-2] An INFO Message
-2024-09-25 11:01:59,548 WARN c.e.s.HelloService [http-nio-8080-exec-2] A WARN Message
-2024-09-25 11:01:59,548 ERROR c.e.s.HelloService [http-nio-8080-exec-2] An ERROR Message
+2024-09-26 11:29:01,862 INFO o.s.b.StartupInfoLogger [Test worker] Starting Spring21ApplicationTests using Java 21.0.4 with PID 98194 (started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 11:29:01,864 DEBUG o.s.b.StartupInfoLogger [Test worker] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 11:29:01,864 INFO o.s.b.SpringApplication [Test worker] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 11:29:02,746 INFO o.s.b.StartupInfoLogger [Test worker] Started Spring21ApplicationTests in 1.026 seconds (process running for 1.552)
+2024-09-26 11:29:09,483 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 98233 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 11:29:09,484 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 11:29:09,484 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 11:30:36,907 INFO o.s.b.StartupInfoLogger [Test worker] Starting Spring21ApplicationTests using Java 21.0.4 with PID 98519 (started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 11:30:36,908 DEBUG o.s.b.StartupInfoLogger [Test worker] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 11:30:36,908 INFO o.s.b.SpringApplication [Test worker] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 11:30:37,803 INFO o.s.b.StartupInfoLogger [Test worker] Started Spring21ApplicationTests in 1.036 seconds (process running for 1.573)
+2024-09-26 11:30:42,378 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 98559 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 11:30:42,378 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 11:30:42,379 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 11:31:53,602 INFO o.s.b.StartupInfoLogger [Test worker] Starting Spring21ApplicationTests using Java 21.0.4 with PID 98670 (started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 11:31:53,602 DEBUG o.s.b.StartupInfoLogger [Test worker] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 11:31:53,603 INFO o.s.b.SpringApplication [Test worker] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 11:31:54,507 INFO o.s.b.StartupInfoLogger [Test worker] Started Spring21ApplicationTests in 1.045 seconds (process running for 1.569)
+2024-09-26 11:32:13,892 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 98707 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 11:32:13,893 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 11:32:13,893 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 11:32:25,810 ERROR o.s.b.SpringApplication [main] Application run failed
+org.springframework.boot.docker.compose.core.ProcessExitException: 'docker compose --file /Users/mikesmith/code/personal/spring21/docker-compose.yml --ansi never up --no-color --detach --wait' failed with exit code 18.
+
+Stdout:
+
+
+Stderr:
+ db Pulling 
+ db Error 
+Error response from daemon: manifest for mongo:latestx not found: manifest unknown: manifest unknown
+
+	at org.springframework.boot.docker.compose.core.ProcessRunner.run(ProcessRunner.java:96)
+	at org.springframework.boot.docker.compose.core.DockerCli.run(DockerCli.java:80)
+	at org.springframework.boot.docker.compose.core.DefaultDockerCompose.up(DefaultDockerCompose.java:51)
+	at org.springframework.boot.docker.compose.lifecycle.StartCommand.applyTo(StartCommand.java:51)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager.start(DockerComposeLifecycleManager.java:123)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:53)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:35)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.contextLoaded(EventPublishingRunListener.java:98)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$contextLoaded$4(SpringApplicationRunListeners.java:72)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:72)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:433)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.Spring21Application.main(Spring21Application.java:12)
+2024-09-26 11:32:49,116 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 98761 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 11:32:49,117 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 11:32:49,117 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 11:34:51,532 ERROR o.s.b.SpringApplication [main] Application run failed
+org.springframework.boot.docker.compose.lifecycle.ReadinessTimeoutException: Readiness timeout of PT2M reached while waiting for services [spring21-activemq-1]
+	at org.springframework.boot.docker.compose.lifecycle.ServiceReadinessChecks.waitUntilReady(ServiceReadinessChecks.java:83)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeLifecycleManager.start(DockerComposeLifecycleManager.java:139)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:53)
+	at org.springframework.boot.docker.compose.lifecycle.DockerComposeListener.onApplicationEvent(DockerComposeListener.java:35)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:138)
+	at org.springframework.boot.context.event.EventPublishingRunListener.multicastInitialEvent(EventPublishingRunListener.java:136)
+	at org.springframework.boot.context.event.EventPublishingRunListener.contextLoaded(EventPublishingRunListener.java:98)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$contextLoaded$4(SpringApplicationRunListeners.java:72)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.contextLoaded(SpringApplicationRunListeners.java:72)
+	at org.springframework.boot.SpringApplication.prepareContext(SpringApplication.java:433)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:334)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.Spring21Application.main(Spring21Application.java:12)
+	Suppressed: org.springframework.boot.docker.compose.lifecycle.ServiceNotReadyException: Immediate disconnect while connecting to port 8161
+		at org.springframework.boot.docker.compose.lifecycle.TcpConnectServiceReadinessCheck.check(TcpConnectServiceReadinessCheck.java:71)
+		at org.springframework.boot.docker.compose.lifecycle.TcpConnectServiceReadinessCheck.check(TcpConnectServiceReadinessCheck.java:58)
+		at org.springframework.boot.docker.compose.lifecycle.TcpConnectServiceReadinessCheck.check(TcpConnectServiceReadinessCheck.java:48)
+		at org.springframework.boot.docker.compose.lifecycle.ServiceReadinessChecks.check(ServiceReadinessChecks.java:97)
+		at org.springframework.boot.docker.compose.lifecycle.ServiceReadinessChecks.waitUntilReady(ServiceReadinessChecks.java:77)
+		... 19 common frames omitted
+2024-09-26 11:41:40,579 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 855 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 11:41:40,580 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 11:41:40,581 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 11:43:13,832 INFO o.s.b.StartupInfoLogger [Test worker] Starting Spring21ApplicationTests using Java 21.0.4 with PID 1056 (started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 11:43:13,833 DEBUG o.s.b.StartupInfoLogger [Test worker] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 11:43:13,834 INFO o.s.b.SpringApplication [Test worker] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 11:43:14,803 INFO o.s.b.StartupInfoLogger [Test worker] Started Spring21ApplicationTests in 1.114 seconds (process running for 1.648)
+2024-09-26 11:43:31,148 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 1100 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 11:43:31,149 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 11:43:31,149 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 11:44:47,175 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 76.234 seconds (process running for 76.402)
+2024-09-26 11:48:06,502 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 1394 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 11:48:06,503 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 11:48:06,503 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 11:48:23,509 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'helloController' method 
+com.example.HelloController#index(PersonalDetails)
+to {GET [/]}: There is already 'activeMQController' bean method
+com.example.ActiveMQController#addMessage(PersonalDetails) mapped.
+2024-09-26 11:48:23,525 ERROR o.s.b.SpringApplication [main] Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Ambiguous mapping. Cannot map 'helloController' method 
+com.example.HelloController#index(PersonalDetails)
+to {GET [/]}: There is already 'activeMQController' bean method
+com.example.ActiveMQController#addMessage(PersonalDetails) mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.example.Spring21Application.main(Spring21Application.java:12)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'helloController' method 
+com.example.HelloController#index(PersonalDetails)
+to {GET [/]}: There is already 'activeMQController' bean method
+com.example.ActiveMQController#addMessage(PersonalDetails) mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.validateMethodMapping(AbstractHandlerMethodMapping.java:674)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:636)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:331)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:508)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.registerHandlerMethod(RequestMappingHandlerMapping.java:84)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$2(AbstractHandlerMethodMapping.java:298)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:296)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.processCandidateBean(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:224)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:212)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:239)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 16 common frames omitted
+2024-09-26 11:48:35,457 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 1462 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 11:48:35,457 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 11:48:35,458 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 11:48:52,531 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 17.299 seconds (process running for 17.466)
+2024-09-26 11:48:55,935 INFO c.e.ActiveMQController [http-nio-8080-exec-1] Adding a message
+2024-09-26 11:55:45,945 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 1702 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 11:55:45,946 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 11:55:45,946 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 11:55:47,323 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 1.583 seconds (process running for 1.759)
+2024-09-26 11:56:29,281 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 1778 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 11:56:29,282 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 11:56:29,282 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 11:56:49,891 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 20.812 seconds (process running for 20.981)
+2024-09-26 12:00:30,930 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 1978 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 12:00:30,931 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 12:00:30,931 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 12:00:32,448 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 1.723 seconds (process running for 1.9)
+2024-09-26 12:00:57,594 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 2049 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 12:00:57,594 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 12:00:57,594 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 12:02:53,153 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 2237 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 12:02:53,154 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 12:02:53,154 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 12:04:43,651 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 110.696 seconds (process running for 110.87)
+2024-09-26 12:06:16,328 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 2583 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 12:06:16,329 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 12:06:16,329 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 12:06:33,386 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 17.255 seconds (process running for 17.417)
+2024-09-26 12:13:53,385 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 2857 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 12:13:53,386 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 12:13:53,386 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 12:13:54,796 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 1.611 seconds (process running for 1.782)
+2024-09-26 12:16:29,399 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 3033 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 12:16:29,400 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 12:16:29,401 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 12:18:16,701 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 107.508 seconds (process running for 107.676)
+2024-09-26 12:18:46,948 INFO c.e.ActiveMQController [http-nio-8080-exec-2] Adding a message
+2024-09-26 12:18:46,952 ERROR o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.example.jms.MikeMessageProducer.sendTo(String, com.example.model.MikeMessage)" because "this.mikeMessageProducer" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.example.jms.MikeMessageProducer.sendTo(String, com.example.model.MikeMessage)" because "this.mikeMessageProducer" is null
+	at com.example.ActiveMQController.addMessage(ActiveMQController.java:28)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024-09-26 12:20:24,304 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 3198 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 12:20:24,305 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 12:20:24,305 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 12:20:41,548 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 17.439 seconds (process running for 17.603)
+2024-09-26 12:21:21,224 INFO c.e.ActiveMQController [http-nio-8080-exec-2] Adding a message
+2024-09-26 12:21:21,944 INFO c.e.j.MikeMessageProducer [http-nio-8080-exec-2] Producer> Message Sent
+2024-09-26 12:24:01,394 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 3328 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 12:24:01,395 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 12:24:01,396 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 12:24:17,789 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 16.61 seconds (process running for 16.775)
+2024-09-26 12:24:18,090 INFO c.e.j.MikeMessageConsumer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Consumer> MikeMessage[name=miketest]
+2024-09-26 12:25:40,481 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 3594 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 12:25:40,481 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 12:25:40,482 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 12:25:42,048 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 1.792 seconds (process running for 1.987)
+2024-09-26 12:25:47,070 ERROR o.s.j.l.DefaultMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Could not refresh JMS Connection for destination 'store' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused
+2024-09-26 12:25:52,081 ERROR o.s.j.l.DefaultMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Could not refresh JMS Connection for destination 'store' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://localhost:61616. Reason: java.net.ConnectException: Connection refused
+2024-09-26 12:26:09,373 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 3696 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 12:26:09,373 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 12:26:09,374 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 12:28:01,161 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 111.991 seconds (process running for 112.156)
+2024-09-26 12:28:39,811 INFO c.e.ActiveMQController [http-nio-8080-exec-1] Adding a message
+2024-09-26 12:28:39,971 INFO c.e.j.MikeMessageProducer [http-nio-8080-exec-1] Producer> Message Sent : MikeMessage[name=miketest]
+2024-09-26 12:28:39,975 INFO c.e.j.MikeMessageConsumer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Consumer> : MikeMessage[name=miketest]
+2024-09-26 12:29:18,204 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:1] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:29:19,232 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:1] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:29:20,253 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:1] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:29:21,282 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:1] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:29:22,313 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:1] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:29:23,347 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:1] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:29:24,382 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:1] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:30:16,747 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:2] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:30:17,781 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:2] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:30:18,804 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:2] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:30:19,833 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:2] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:30:20,858 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:2] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:30:21,885 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:2] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:30:22,908 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:2] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:34:01,031 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:3] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:34:02,052 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:3] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:34:03,073 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:3] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:34:04,099 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:3] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:34:05,127 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:3] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:34:06,148 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:3] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:34:07,168 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-40679-1727350071282-4:1:1:1:3] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:41:51,018 INFO o.s.b.StartupInfoLogger [main] Starting Spring21Application using Java 21.0.4 with PID 4899 (/Users/mikesmith/code/personal/spring21/build/classes/java/main started by mikesmith in /Users/mikesmith/code/personal/spring21)
+2024-09-26 12:41:51,019 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v3.2.10, Spring v6.1.13
+2024-09-26 12:41:51,019 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-09-26 12:42:08,511 INFO o.s.b.StartupInfoLogger [main] Started Spring21Application in 17.698 seconds (process running for 17.87)
+2024-09-26 12:43:34,076 INFO c.e.ActiveMQController [http-nio-8080-exec-1] Adding a message
+2024-09-26 12:43:34,618 INFO c.e.j.MikeMessageConsumer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Consumer> : MikeMessage[name=miketest]
+2024-09-26 12:43:34,622 INFO c.e.j.MikeMessageProducer [http-nio-8080-exec-1] Producer> Message Sent : {"name":"John"}
+2024-09-26 12:44:29,596 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-33203-1727350917488-4:1:1:1:1] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:44:30,625 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-33203-1727350917488-4:1:1:1:1] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:44:31,664 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-33203-1727350917488-4:1:1:1:1] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:44:32,698 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-33203-1727350917488-4:1:1:1:1] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:44:33,723 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-33203-1727350917488-4:1:1:1:1] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:44:34,760 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-33203-1727350917488-4:1:1:1:1] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted
+2024-09-26 12:44:35,816 WARN o.s.j.l.AbstractMessageListenerContainer [org.springframework.jms.JmsListenerEndpointContainer#0-1] Execution of JMS message listener failed, and no ErrorHandler has been set.
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.example.jms.MikeMessageConsumer.processToDo(com.example.model.MikeMessage)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:118)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:84)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:787)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:742)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:720)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:333)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:270)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1257)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1247)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1140)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not find type id property [_asb_] on message [ID:7e3ee0a4646e-33203-1727350917488-4:1:1:1:1] from destination [queue://store]
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.getJavaTypeForMessage(MappingJackson2MessageConverter.java:460)
+	at org.springframework.jms.support.converter.MappingJackson2MessageConverter.fromMessage(MappingJackson2MessageConverter.java:241)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:472)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:539)
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:521)
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122)
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147)
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115)
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:110)
+	... 10 common frames omitted

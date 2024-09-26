@@ -8,11 +8,10 @@ import org.springframework.stereotype.Service;
 public class HelloService {
 
     public String giveAnswer(final String name) {
-        log.trace("A TRACE Message");
-        log.debug("A DEBUG Message");
+
         log.info("An INFO Message");
-        log.warn("A WARN Message");
-        log.error("An ERROR Message");
+
+
         return "Hello and greetings to " + name;
     }
 }
