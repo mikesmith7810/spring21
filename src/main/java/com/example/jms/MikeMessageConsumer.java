@@ -1,6 +1,5 @@
 package com.example.jms;
 
-import com.example.model.MikeMessage;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
@@ -10,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class MikeMessageConsumer {
 
     @JmsListener(destination = "${activemq.destination}", containerFactory = "jmsFactory")
-    public void processToDo(MikeMessage mikeMessage) {
+    public void processMessage(String mikeMessage) {
         log.info("Consumer> : {}", mikeMessage);
     }
 }
